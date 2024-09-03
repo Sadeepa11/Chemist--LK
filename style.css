@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "Quicksand";
+    src: url("fonts/Quicksand-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Honey";
+    src: url("fonts/HoneyScript-Light.ttf");
+}
+
+*{
+    font-family: "Quicksand";
+    font-size: 20px;
+}
+.title2{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.background{
+    background-image: url("resources/background.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.logo{
+    background-image: url("resources/logo2.png");
+    height: 100px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+}
+.box{
+    margin-top: 30px;
+    margin-left: 20px;
+    
+}
+.box:hover{
+    
+    margin-left: 25px;
+    cursor: pointer;
+}
+.title1{
+    font-family: "Honey";
+    
+}
+.box1{
+    margin-top: 30px;
+    margin-left: 20px;
+    
+}
+.add_lesson_image{
+    width:50px; 
+    height:60px; 
+    background-image: url('resources/addLess.png'); 
+    background-size: contain; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    border: none;
+    background-color: white;
+}
+.add_lesson_image:hover{
+  cursor: pointer;
+  
+}
